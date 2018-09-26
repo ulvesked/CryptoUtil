@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CryptoUtil_Tests' do
+  pod 'CryptoUtil', :path => '../'
+  
+  
+end
