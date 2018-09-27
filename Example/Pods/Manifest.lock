@@ -1,0 +1,16 @@
+PODS:
+  - CryptoUtil (0.1.0)
+
+DEPENDENCIES:
+  - CryptoUtil (from `../`)
+
+EXTERNAL SOURCES:
+  CryptoUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CryptoUtil: 09a50420bfb1718bc4bfd37b9d18d21150cdaa34
+
+PODFILE CHECKSUM: 28d97afa661368e228efe883f293076b1c4d61bf
+
+COCOAPODS: 1.5.3

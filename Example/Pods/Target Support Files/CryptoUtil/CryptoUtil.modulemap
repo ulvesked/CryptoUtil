@@ -1,0 +1,6 @@
+framework module CryptoUtil {
+  umbrella header "CryptoUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}

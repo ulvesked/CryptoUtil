@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03671E32ACA6E6A0CF1791AF813A4AB2 /* Pods-CryptoUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB3D5D06210E75157A7E98A47B39C63 /* Pods-CryptoUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24FC4A28FF78CEF9DC6CEECB1492846C /* CryptoUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C510BFAC7046719B772A55A0545F47 /* CryptoUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BFB8047A5CD7FE2E52C01CDF2176C10 /* Pods-CryptoUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 914E3723DACD5F4704A62EBC11B2D1B7 /* Pods-CryptoUtil_Tests-dummy.m */; };
+		79EAFA06D501E2EE8CCB824B9DCF9CB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8E00E33775A54ED8C098D275FA94EDE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9A86AD77215B59BB009FA319 /* RSAUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86AD76215B59BB009FA319 /* RSAUtil.swift */; };
+		C169281150F165B6BA8472624A61652D /* CryptoUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF581E8F512E23DF8824302F25FDF23D /* CryptoUtil.swift */; };
+		E5C3A7E9AB462B0B1696634A0E999DDE /* CryptoUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ED5913179C1681CA09C782AF821E8A /* CryptoUtil-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6616A3A491E3E296D0D4AD1A6B62600F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26D619556AB574B57B54C97F4A385EAF;
+			remoteInfo = CryptoUtil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C6528DB326BE02242848CC30C84326 /* Pods-CryptoUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoUtil_Tests.modulemap"; sourceTree = "<group>"; };
+		0D9267BD8511F8010108EA2A0C4B6BB2 /* Pods-CryptoUtil_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoUtil_Tests-resources.sh"; sourceTree = "<group>"; };
+		17E117F1F5ABF539039B654ECF954CF7 /* CryptoUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoUtil-prefix.pch"; sourceTree = "<group>"; };
+		21ED1857C9BC96B35F0717E586734C77 /* CryptoUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoUtil.xcconfig; sourceTree = "<group>"; };
+		41B13E7C40554AF661E0FFC646808405 /* CryptoUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE9E9854E7D83DAC897D39DCC3B6FAD /* Pods-CryptoUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68D31DB49809760801FBA18B36544AA9 /* CryptoUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CryptoUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7186B69495E076A66444B66DBCF4C0BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB3D5D06210E75157A7E98A47B39C63 /* Pods-CryptoUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
+		914E3723DACD5F4704A62EBC11B2D1B7 /* Pods-CryptoUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoUtil_Tests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97ED5913179C1681CA09C782AF821E8A /* CryptoUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoUtil-dummy.m"; sourceTree = "<group>"; };
+		9A86AD76215B59BB009FA319 /* RSAUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RSAUtil.swift; path = CryptoUtil/Classes/RSAUtil.swift; sourceTree = "<group>"; };
+		A712A161DA56EFDFD11D045837094BE0 /* Pods-CryptoUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AE99BDAFFE912B787174F84956586509 /* CryptoUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CryptoUtil.modulemap; sourceTree = "<group>"; };
+		B2304C5AD1853C0E2678DE9E2D7B9A88 /* Pods-CryptoUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8AD6883272245E693971425E392BA6B /* Pods-CryptoUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7B843AEDEF675403EF424F1113183E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DB67CB7DB42F66F2D86F424956E25F47 /* Pods_CryptoUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF581E8F512E23DF8824302F25FDF23D /* CryptoUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoUtil.swift; path = CryptoUtil/Classes/CryptoUtil.swift; sourceTree = "<group>"; };
+		E8A599AD2915583EFB2AC27B4BCFC359 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34F3FF49348524EF7111819CC235D6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F6C510BFAC7046719B772A55A0545F47 /* CryptoUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoUtil-umbrella.h"; sourceTree = "<group>"; };
+		FD0FF3EF10109772CE9928CC47E30738 /* Pods-CryptoUtil_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoUtil_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FB9998814EBC67B9B58E633DE44C97C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E00E33775A54ED8C098D275FA94EDE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC98950941A9AD4141FD8AB3C98867C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EAFA06D501E2EE8CCB824B9DCF9CB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10C2561AFCE52DCD39F7942F4D08844E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				68D31DB49809760801FBA18B36544AA9 /* CryptoUtil.podspec */,
+				F34F3FF49348524EF7111819CC235D6B /* LICENSE */,
+				C7B843AEDEF675403EF424F1113183E6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		425175E50F4B10DBD159C1196FAF310F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41B13E7C40554AF661E0FFC646808405 /* CryptoUtil.framework */,
+				DB67CB7DB42F66F2D86F424956E25F47 /* Pods_CryptoUtil_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FEE2967575EAA32E9C393CF3A871FB8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE13617970F7D99E0BF0FB5FFE5D75CA /* Pods-CryptoUtil_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6892C3E340A1C001152C6378AED9A718 /* CryptoUtil */ = {
+			isa = PBXGroup;
+			children = (
+				DF581E8F512E23DF8824302F25FDF23D /* CryptoUtil.swift */,
+				10C2561AFCE52DCD39F7942F4D08844E /* Pod */,
+				B512F17233989548414381DDA2EF005B /* Support Files */,
+				9A86AD76215B59BB009FA319 /* RSAUtil.swift */,
+			);
+			name = CryptoUtil;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		71440929A379B514798C4DF8321420F1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6892C3E340A1C001152C6378AED9A718 /* CryptoUtil */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				71440929A379B514798C4DF8321420F1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				425175E50F4B10DBD159C1196FAF310F /* Products */,
+				4FEE2967575EAA32E9C393CF3A871FB8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B512F17233989548414381DDA2EF005B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE99BDAFFE912B787174F84956586509 /* CryptoUtil.modulemap */,
+				21ED1857C9BC96B35F0717E586734C77 /* CryptoUtil.xcconfig */,
+				97ED5913179C1681CA09C782AF821E8A /* CryptoUtil-dummy.m */,
+				17E117F1F5ABF539039B654ECF954CF7 /* CryptoUtil-prefix.pch */,
+				F6C510BFAC7046719B772A55A0545F47 /* CryptoUtil-umbrella.h */,
+				7186B69495E076A66444B66DBCF4C0BB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CryptoUtil";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE13617970F7D99E0BF0FB5FFE5D75CA /* Pods-CryptoUtil_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E8A599AD2915583EFB2AC27B4BCFC359 /* Info.plist */,
+				02C6528DB326BE02242848CC30C84326 /* Pods-CryptoUtil_Tests.modulemap */,
+				4CE9E9854E7D83DAC897D39DCC3B6FAD /* Pods-CryptoUtil_Tests-acknowledgements.markdown */,
+				B2304C5AD1853C0E2678DE9E2D7B9A88 /* Pods-CryptoUtil_Tests-acknowledgements.plist */,
+				914E3723DACD5F4704A62EBC11B2D1B7 /* Pods-CryptoUtil_Tests-dummy.m */,
+				FD0FF3EF10109772CE9928CC47E30738 /* Pods-CryptoUtil_Tests-frameworks.sh */,
+				0D9267BD8511F8010108EA2A0C4B6BB2 /* Pods-CryptoUtil_Tests-resources.sh */,
+				7CB3D5D06210E75157A7E98A47B39C63 /* Pods-CryptoUtil_Tests-umbrella.h */,
+				B8AD6883272245E693971425E392BA6B /* Pods-CryptoUtil_Tests.debug.xcconfig */,
+				A712A161DA56EFDFD11D045837094BE0 /* Pods-CryptoUtil_Tests.release.xcconfig */,
+			);
+			name = "Pods-CryptoUtil_Tests";
+			path = "Target Support Files/Pods-CryptoUtil_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8314500908B8C68D7F41219190C4074D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03671E32ACA6E6A0CF1791AF813A4AB2 /* Pods-CryptoUtil_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE99EB487C43216D905CD72FB681B979 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FC4A28FF78CEF9DC6CEECB1492846C /* CryptoUtil-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26D619556AB574B57B54C97F4A385EAF /* CryptoUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF12ADFC694C09E8D6F1BB2F40306BD9 /* Build configuration list for PBXNativeTarget "CryptoUtil" */;
+			buildPhases = (
+				CE99EB487C43216D905CD72FB681B979 /* Headers */,
+				89FCECEA2443FC7E4F41A8F29DA0A69C /* Sources */,
+				5FB9998814EBC67B9B58E633DE44C97C /* Frameworks */,
+				944271E82037316E3CA50AEAFE8F49F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoUtil;
+			productName = CryptoUtil;
+			productReference = 41B13E7C40554AF661E0FFC646808405 /* CryptoUtil.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		961AA9E0F20C0209BF9911A967252FAB /* Pods-CryptoUtil_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596F262F9B72531AB26AD6169C20C09B /* Build configuration list for PBXNativeTarget "Pods-CryptoUtil_Tests" */;
+			buildPhases = (
+				8314500908B8C68D7F41219190C4074D /* Headers */,
+				05A74788C129C1A5075726BAE7FE06D0 /* Sources */,
+				ECC98950941A9AD4141FD8AB3C98867C /* Frameworks */,
+				F1B5E79F7F328A44FEC1A56D0031C8FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E8333917A3F49CAE7C0DC9FA7FC90F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-CryptoUtil_Tests";
+			productName = "Pods-CryptoUtil_Tests";
+			productReference = DB67CB7DB42F66F2D86F424956E25F47 /* Pods_CryptoUtil_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 425175E50F4B10DBD159C1196FAF310F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26D619556AB574B57B54C97F4A385EAF /* CryptoUtil */,
+				961AA9E0F20C0209BF9911A967252FAB /* Pods-CryptoUtil_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		944271E82037316E3CA50AEAFE8F49F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B5E79F7F328A44FEC1A56D0031C8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05A74788C129C1A5075726BAE7FE06D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFB8047A5CD7FE2E52C01CDF2176C10 /* Pods-CryptoUtil_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FCECEA2443FC7E4F41A8F29DA0A69C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C3A7E9AB462B0B1696634A0E999DDE /* CryptoUtil-dummy.m in Sources */,
+				9A86AD77215B59BB009FA319 /* RSAUtil.swift in Sources */,
+				C169281150F165B6BA8472624A61652D /* CryptoUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E8333917A3F49CAE7C0DC9FA7FC90F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoUtil;
+			target = 26D619556AB574B57B54C97F4A385EAF /* CryptoUtil */;
+			targetProxy = 6616A3A491E3E296D0D4AD1A6B62600F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24F0C10AF31DF9C949CF1580CC78E090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8AD6883272245E693971425E392BA6B /* Pods-CryptoUtil_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoUtil_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoUtil_Tests/Pods-CryptoUtil_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3BFBFEFDB873A8D3AA3EDB8FF3D27453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21ED1857C9BC96B35F0717E586734C77 /* CryptoUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoUtil/CryptoUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CryptoUtil/CryptoUtil.modulemap";
+				PRODUCT_MODULE_NAME = CryptoUtil;
+				PRODUCT_NAME = CryptoUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AE13EE8452D76C1D25C53F4C0F1FF490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21ED1857C9BC96B35F0717E586734C77 /* CryptoUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoUtil/CryptoUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CryptoUtil/CryptoUtil.modulemap";
+				PRODUCT_MODULE_NAME = CryptoUtil;
+				PRODUCT_NAME = CryptoUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EBD6450DA2DA8DFDC2ED1C5A40EAC85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A712A161DA56EFDFD11D045837094BE0 /* Pods-CryptoUtil_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoUtil_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoUtil_Tests/Pods-CryptoUtil_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		596F262F9B72531AB26AD6169C20C09B /* Build configuration list for PBXNativeTarget "Pods-CryptoUtil_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F0C10AF31DF9C949CF1580CC78E090 /* Debug */,
+				EBD6450DA2DA8DFDC2ED1C5A40EAC85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF12ADFC694C09E8D6F1BB2F40306BD9 /* Build configuration list for PBXNativeTarget "CryptoUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE13EE8452D76C1D25C53F4C0F1FF490 /* Debug */,
+				3BFBFEFDB873A8D3AA3EDB8FF3D27453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

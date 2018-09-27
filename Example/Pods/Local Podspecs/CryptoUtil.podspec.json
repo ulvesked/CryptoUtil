@@ -1,0 +1,22 @@
+{
+  "name": "CryptoUtil",
+  "version": "0.1.0",
+  "summary": "A short description of CryptoUtil.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ulvesked/CryptoUtil",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ulvesked": "anders@webbstudio.net"
+  },
+  "source": {
+    "git": "https://github.com/ulvesked/CryptoUtil.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CryptoUtil/Classes/**/*"
+}
